@@ -1,6 +1,6 @@
 // .vuepress/config.js
 module.exports = {
-  base:'./',
+  /* base:'./', */
   title: "繁夏*忆汝",
   head: [
     ['link', { rel: 'icon', href: '/assets/img/kenan.png' }],
@@ -13,18 +13,17 @@ module.exports = {
       { text: '导航', link: '/guide/guide.md' },
       { text: 'java', link: '/java/' },
       { text: 'github', link: 'https://github.com/HickeyHou?tab=repositories' },
-      {
-        text: 'Languages',
-        items: [
-          { text: 'Chinese', link: '/language/chinese' },
-          { text: 'Japanese', link: '/language/japanese' }
-        ]
-      }
     ],
     sidebar: {
       '/java/': [
         'elasticsearch',
         'rabbitmq'
+      ],
+      "/docker/":[
+        "docker"
+      ],
+      '/guide/': [
+        'guide',    
       ]
     }
   }
