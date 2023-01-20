@@ -1,6 +1,6 @@
 // .vuepress/config.js
 module.exports = {
-  /* base:'./', */
+  base:'./',
   title: "繁夏*忆汝",
   head: [
     ['link', { rel: 'icon', href: '/assets/img/kenan.png' }],
