@@ -1,3 +1,3 @@
 ---
-title: 消息队列
+title: rabbitmq
 ---
