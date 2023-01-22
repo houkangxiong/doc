@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 #heroImage: /hero.png
 tagline: welcome to my website
 actionText: study →
@@ -13,3 +13,4 @@ features:
   details: vx：houkx94
 #footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+ ![image-20230110161840807](/assets/img/background.png) 
