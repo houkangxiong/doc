@@ -1,5 +1,5 @@
 ---
-home: false
+home: true
 #heroImage: /hero.png
 tagline: welcome to my website
 actionText: study →
