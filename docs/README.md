@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: $withBase('/assets/img/study.png')
+heroImage: /study.png
 heroText:
 tagline: welcome to hickey hou's website
 actionText: study →
