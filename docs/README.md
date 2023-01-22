@@ -1,7 +1,7 @@
 ---
 home: true
 heroText:
-heroimage: /assets/study.png
+heroImage: /assets/study.png
 tagline: welcome to hickey hou's website
 actionText: study →
 actionLink: /guide/guide.md
