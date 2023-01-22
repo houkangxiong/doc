@@ -1,6 +1,5 @@
 ---
 home: true
-#heroImage: /study.png
 heroText:
 tagline: welcome to hickey hou's website
 actionText: study →
