@@ -3,7 +3,7 @@ module.exports = {
   base:'./',
   title: "繁夏*忆汝",
   head: [
-    ['link', { rel: 'icon', href: '/assets/img/kenan.png' }],
+   /*  ['link', { rel: 'icon', href: '/assets/img/kenan.png' }], */
     ['meta', { name: 'author', content: '繁夏*忆汝' }]],
   themeConfig: {
     lastUpdated:'更新时间',
