@@ -1,7 +1,8 @@
 ---
 home: true
-#heroImage: /hero.png
-tagline: welcome to my website
+heroImage: /assets/img/study.png
+heroText:
+tagline: welcome to hickey hou's website
 actionText: study →
 actionLink: /guide/guide.md
 features:
