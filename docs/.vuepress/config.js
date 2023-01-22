@@ -9,10 +9,10 @@ module.exports = {
     lastUpdated:'更新时间',
     logo: '/assets/img/kenan.png',
     nav: [
-      { text: '首页', link: '/' },
-      { text: '导航', link: '/guide/guide.md' },
+      { text: 'home', link: '/' },
+      { text: 'guide', link: '/guide/guide.md' },
       { text: 'java', link: '/java/' },
-      { text: 'github', link: 'https://github.com/HickeyHou?tab=repositories' },
+      { text: 'github', link: 'https://github.com/houkangxiong' },
     ],
     sidebar: {
       '/java/': [

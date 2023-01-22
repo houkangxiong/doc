@@ -110,8 +110,8 @@ docker pull nginx
 ```
 
 > 查看镜像
-
-![image-20230110155241106](/assets/image-20230110155241106.png)
+<img :src="$withBase('/assets/image-20230110155241106.png')">
+<!-- ![image-20230110155241106](/assets/image-20230110155241106.png) -->
 
 ```sh
 docker images
@@ -122,38 +122,38 @@ docker images
 ```sh
 docker rmi nginx
 ```
-
-![image-20230110155634278](/assets/image-20230110155634278.png)
+<img :src="$withBase('/assets/image-20230110155634278.png')">
+<!-- ![image-20230110155634278](/assets/image-20230110155634278.png) -->
 
 > 保存镜像
-
-![image-20230110160255984](/assets/image-20230110160255984.png)
+<img :src="$withBase('/assets/image-20230110160255984.png')">
+<!-- ![image-20230110160255984](/assets/image-20230110160255984.png) -->
 
 ```sh
 docker save -o /opt/nginx.tar nginx
 ```
 
 > 本地拉取镜像
-
-![image-20230110160556950](/assets/image-20230110160556950.png)
+<img :src="$withBase('/assets/image-20230110160556950.png')">
+<!-- ![image-20230110160556950](/assets/image-20230110160556950.png) -->
 
 ```sh
 docker load -i /opt/nginx.tar
 ```
 
 ### mysql举例容器
-
-![image-20230110163041225](/assets\image-20230110163041225.png)
+<img :src="$withBase('/assets\image-20230110163041225.png')">
+<!-- ![image-20230110163041225](/assets\image-20230110163041225.png) -->
 
 这是dockerhub给出的命令
 
 我们还需指定端口、挂载的配置文件等
-
-![image-20230110163310966](/assets/image-20230110163310966.png)
+<img :src="$withBase('/assets/image-20230110163310966.png')">
+<!-- ![image-20230110163310966](/assets/image-20230110163310966.png) -->
 
 官网会给出配置cnf位置
-
-![image-20230110163507405](/assets/image-20230110163507405.png)
+<img :src="$withBase('/assets/image-20230110163507405.png')">
+<!-- ![image-20230110163507405](/assets/image-20230110163507405.png) -->
 
 官网还会指出data的挂载位置
 
@@ -164,8 +164,8 @@ docker load -i /opt/nginx.tar
 我们创建/tmp/mysql/conf和/tmp/mysql/data
 
 在conf下添加配置文件hmy.conf
-
-![image-20230110165221677](/assets/image-20230110165221677.png)
+<img :src="$withBase('/assets/image-20230110165221677.png')">
+<!-- ![image-20230110165221677](/assets/image-20230110165221677.png) -->
 
 > 启动
 
@@ -189,15 +189,15 @@ docker restart 容器id
 docker volume ls #查看volume列表
 docker volume inspect es-data#查看挂载位置
 ```
-
-![image-20230110161840807](/assets/image-20230110161840807.png)
+<img :src="$withBase('/assets/image-20230110161840807.png')">
+<!-- ![image-20230110161840807](/assets/image-20230110161840807.png) -->
 
 ```sh
 docker volume create html #创建html
 docker volume rm html #删除html
 ```
-
-![image-20230110162512547](/assets/image-20230110162512547.png)
+<img :src="$withBase('/assets/image-20230110162512547.png')">
+<!-- ![image-20230110162512547](/assets/image-20230110162512547.png) -->
 
 ### 自定义镜像
 
