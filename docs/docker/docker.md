@@ -15,8 +15,8 @@ docker如何解决依赖的兼容问题？
 <img :src="$withBase('/assets/image-20230110145338066.png')">
 
 > 开发测试及操作系统环境差异如何解决？
-
-![image-20230110145617282](/assets/image-20230110145617282-1673333780020-1.png)
+<img :src="$withBase('/assets/image-20230110145617282-1673333780020-1.png')">
+<!-- ![image-20230110145617282](/assets/image-20230110145617282-1673333780020-1.png) -->
 
 Ubuntu和Centos都是基于Linux内核，只是系统应用不同、提供的函数库有差异，这就是不能跨系统的原因；
 
@@ -32,8 +32,8 @@ Ubuntu和Centos都是基于Linux内核，只是系统应用不同、提供的函
 ### docker和虚拟机
 
 > 区别在哪？
-
-![image-20230110151701210](/assets/image-20230110151701210.png)
+<img :src="$withBase('/assets/image-20230110151701210.png')">
+<!-- ![image-20230110151701210](/assets/image-20230110151701210.png) -->
 
 - 虚拟机模拟了整个操作系统，docker只封装了部分环境
 - docker是一个进程，虚拟机是操作系统中模拟出的操作系统，所以docker速度更快
@@ -92,8 +92,8 @@ systemctl restart docker  # 重启docker服务
 ```
 
 > 查看版本
-
-![image-20230110153310121](/assets/image-20230110153310121.png)
+<img :src="$withBase('/assets/image-20230110153310121.png')">
+<!-- ![image-20230110153310121](/assets/image-20230110153310121.png) -->
 
 ## 2、基本使用
 
@@ -102,8 +102,8 @@ systemctl restart docker  # 重启docker服务
 > 拉取镜像
 >
 > 注：版本使用最新可以没有版本号
-
-![image-20230110155042293](/assets/image-20230110155042293-1673337044090-3.png)
+<img :src="$withBase('/assets/image-20230110155042293-1673337044090-3.png')">
+<!-- ![image-20230110155042293](/assets/image-20230110155042293-1673337044090-3.png) -->
 
 ```sh
 docker pull nginx
