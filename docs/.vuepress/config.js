@@ -34,7 +34,7 @@ module.exports = {
     if(NODE_ENV === 'production'){
       return {
         output: {
-          publicPath: 'https://github.com/houkangxiong/doc/'
+          publicPath: 'https://cdn.jsdelivr.net/gh/houkangxiong/doc/'
         },
         resolve: {
           //配置路径别名
