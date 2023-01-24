@@ -1,4 +1,5 @@
 // .vuepress/config.js
+const path = require('path')
 module.exports = {
   base:'./',
   title: "繁夏*忆汝",
@@ -25,6 +26,32 @@ module.exports = {
       '/guide/': [
         'guide',    
       ]
+    }
+  },
+  configureWebpack: () => {
+    const NODE_ENV = process.env.NODE_ENV
+    //判断是否是生产环境
+    if(NODE_ENV === 'production'){
+      return {
+        output: {
+          publicPath: 'https://cdn.jsdelivr.net/gh/jwchan1996/blog@gh-pages/'
+        },
+        resolve: {
+          //配置路径别名
+          alias: {
+            'public': path.resolve(__dirname, './public') 
+          }
+        }
+      }
+    }else{
+      return {
+        resolve: {
+          //配置路径别名
+          alias: {
+            'public': path.resolve(__dirname, './public') 
+          }
+        }
+      }
     }
   }
 }
