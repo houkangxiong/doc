@@ -3,4 +3,4 @@
 ---
 # docker
 [docker](/docker/docker.md)
-[!jvm](/docs/JVM/jvm.md)
+[jvm](/jvm/jvm.md)

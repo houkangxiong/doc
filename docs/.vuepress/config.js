@@ -22,6 +22,9 @@ module.exports = {
       "/docker/":[
         "docker"
       ],
+      "/jvm/":[
+        "jvm"
+      ],
       '/guide/': [
         'guide',    
       ]
